@@ -1,5 +1,7 @@
 package codewars;
 
+// Write a function called repeatStr which repeats the given string string exactly n times
+
 public class RepeatString {
     public static String solution(final int repeat, final String str) {
             String res = "";
