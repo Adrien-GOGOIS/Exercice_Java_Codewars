@@ -1,9 +1,8 @@
-import codewars.CountingSheep;
-import codewars.OppositesAttract;
-import codewars.Solution;
+import codewars.*;
 
 public class App {
     public static void main(String[] args) {
-
+        Sheeps s = new Sheeps();
+        s.countingSheep(10);
     }
 }
