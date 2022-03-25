@@ -6,7 +6,7 @@ public class HighestLowest {
     public static int sum( int[] numbers)
     {
         // GUARD
-        if (numbers.length < 2) {
+        if (numbers == null || numbers.length < 2) {
             return 0;
         }
         int resHigh = numbers[0];
