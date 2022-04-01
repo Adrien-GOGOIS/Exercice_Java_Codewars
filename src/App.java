@@ -4,8 +4,8 @@ import codewars.*;
 
 public class App {
     public static void main(String[] args) {
-        NumberToString test = new NumberToString();
-        System.out.println(test.numberToString(45));
+        ReturningStrings test = new ReturningStrings();
+        System.out.println(test.greet("Adrien"));
 
     }
 }
