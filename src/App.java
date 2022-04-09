@@ -1,9 +1,12 @@
 import codewars.*;
 
+import java.util.PriorityQueue;
+
 public class App {
     public static void main(String[] args) {
-        BitCounting test = new BitCounting();
-        System.out.println(test.countBits(4));
+        BumpsTheRoad test = new BumpsTheRoad();
+
+        System.out.println(test.bumps("n__nnn__nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"));
 
     }
 }
